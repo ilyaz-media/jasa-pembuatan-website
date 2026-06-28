@@ -1,0 +1,41 @@
+   * {
+       font-family: "Poppins", sans-serif;
+   }
+
+   html {
+       scroll-behavior: smooth;
+   }
+
+   body {
+       background: #07111f;
+   }
+
+   .hero-bg {
+       background: radial-gradient(circle at top right,
+               rgba(37, 99, 235, .35),
+               transparent 45%),
+           linear-gradient(180deg, #07111f, #081528);
+   }
+
+   .nav-scroll {
+       background: rgba(5, 13, 25, .92);
+       backdrop-filter: blur(14px);
+       box-shadow: 0 8px 25px rgba(0, 0, 0, .4);
+   }
+
+
+   .floating-icon-js {
+       animation: bounce 4.5s infinite;
+   }
+
+   .floating-icon-css {
+       animation: bounce 4s infinite;
+   }
+
+   .floating-icon-html {
+       animation: bounce 3s infinite;
+   }
+
+   .floating-icon-react {
+       animation: bounce 2s infinite;
+   }

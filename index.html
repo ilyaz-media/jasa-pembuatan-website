@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ilyas Project</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header id="navbar" class="fixed top-0 left-0 w-full z-50 duration-300">
+
+        <div class="max-w-7xl mx-auto">
+
+            <nav class="flex justify-between items-center py-5 px-6">
+
+                <!-- Logo -->
+
+                <a href="#" class="text-white text-2xl font-bold flex items-center gap-2">
+
+                    <i class="fa-solid fa-code text-blue-500"></i>
+
+                    Ilyas Project
+
+                </a>
+
+                <!-- Menu Desktop -->
+
+                <ul class="hidden lg:flex items-center gap-10 text-white">
+
+                    <li>
+                        <a href="#" class="hover:text-blue-500 duration-300">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#layanan" class="hover:text-blue-500 duration-300">
+                            Layanan
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="hover:text-blue-500 duration-300">
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#pricing" class="hover:text-blue-500 duration-300">
+                            Harga
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#keunggulan" class="hover:text-blue-500 duration-300">
+                            Tentang
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#kontak" class="hover:text-blue-500 duration-300">
+                            Kontak
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Button -->
+
+                <div class="hidden lg:block">
+
+                    <a href="https://wa.me/6282129546021?text=Halo%20Ilyas%20Project,%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20website."
+                        target="_blank"
+                        class="bg-blue-600 hover:bg-blue-700 duration-300 px-6 py-3 rounded-full text-white font-medium">
+
+                        Konsultasi Gratis
+                        <i class="fa-solid fa-paper-plane ml-2"></i>
+
+                    </a>
+
+                </div>
+
+                <!-- Hamburger -->
+
+                <button id="menu-btn" class="text-white text-2xl lg:hidden">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </nav>
+
+        </div>
+
+        <!-- Mobile Menu -->
+
+        <div id="mobile-menu" class="hidden bg-[#091522]">
+
+            <div class="flex flex-col p-6 gap-5 text-white">
+
+                <a href="#">Home</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#pricing">Harga</a>
+                <a href="#keunggulan">Tentang</a>
+                <a href="#kontak">Kontak</a>
+
+                <a href="https://wa.me/6282129546021?text=Halo%20Ilyas%20Project,%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20website."
+                    target="_blank" class="bg-blue-600 rounded-lg py-3 text-center">
+
+                    Konsultasi Gratis
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero-bg pt-32 pb-20 overflow-hidden">
+
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 items-center gap-16">
+
+            <!-- LEFT -->
+
+            <div>
+
+                <!-- Badge -->
+
+                <span
+                    class="inline-flex items-center gap-2 bg-blue-900/40 border border-blue-500/30 text-blue-300 px-5 py-2 rounded-full text-sm">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    JASA PEMBUATAN WEBSITE PROFESIONAL
+
+                </span>
+
+                <!-- Heading -->
+
+                <h1 class="text-5xl lg:text-6xl font-bold text-white leading-tight mt-8">
+
+                    Website Profesional
+
+                    <br>
+
+                    untuk
+
+                    <span class="text-blue-500">
+
+                        Bisnis Anda
+
+                    </span>
+
+                </h1>
+
+                <!-- Description -->
+
+                <p class="text-gray-300 mt-6 text-lg leading-8 max-w-xl">
+
+                    Kami membantu membuat website modern,
+                    cepat, responsif, dan SEO Friendly
+                    untuk meningkatkan kredibilitas bisnis
+                    Anda di era digital.
+
+                </p>
+
+                <!-- Button -->
+
+                <div class="flex flex-wrap gap-4 mt-10">
+
+                    <a href="#"
+                        class="bg-blue-600 hover:bg-blue-700 duration-300 text-white px-7 py-4 rounded-xl font-semibold">
+
+                        Pesan Sekarang
+
+                        <i class="fa-solid fa-arrow-right ml-2"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="border border-gray-500 hover:border-blue-500 hover:text-blue-500 duration-300 text-white px-7 py-4 rounded-xl font-semibold">
+
+                        Lihat Portfolio
+
+                        <i class="fa-solid fa-eye ml-2"></i>
+
+                    </a>
+
+                </div>
+
+                <!-- Statistik -->
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-14">
+
+                    <div class="bg-[#0d1c30] rounded-xl p-5 text-center">
+
+                        <h2 class="text-3xl font-bold text-white">
+
+                            50+
+
+                        </h2>
+
+                        <p class="text-gray-400">
+
+                            Project
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-[#0d1c30] rounded-xl p-5 text-center">
+
+                        <h2 class="text-3xl font-bold text-white">
+
+                            100%
+
+                        </h2>
+
+                        <p class="text-gray-400">
+
+                            Responsive
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-[#0d1c30] rounded-xl p-5 text-center">
+
+                        <h2 class="text-3xl font-bold text-white">
+
+                            Fast
+
+                        </h2>
+
+                        <p class="text-gray-400">
+
+                            Performance
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-[#0d1c30] rounded-xl p-5 text-center">
+
+                        <h2 class="text-3xl font-bold text-white">
+
+                            SEO
+
+                        </h2>
+
+                        <p class="text-gray-400">
+
+                            Ready
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+
+            <div class="relative flex justify-center">
+
+                <!-- Glow -->
+
+                <div class="absolute w-[420px] h-[420px] bg-blue-500/20 rounded-full blur-[120px]">
+
+                </div>
+
+                <!-- Card -->
+
+                <div class="relative bg-[#111f34] rounded-3xl p-8 shadow-2xl border border-blue-900">
+
+                    <img src="assets\main.png" class="rounded-2xl" alt="">
+
+                </div>
+
+                <!-- Floating -->
+
+                <div
+                    class="floating-icon-css absolute top-10 left-0 bg-blue-600 text-white w-16 h-16 rounded-2xl flex items-center justify-center text-2xl shadow-xl animate-bounce">
+
+                    <i class="fa-brands fa-css3-alt"></i>
+
+                </div>
+
+                <div
+                    class="floating-icon-js absolute top-0 right-0 bg-yellow-500 text-white w-16 h-16 rounded-2xl flex items-center justify-center text-2xl shadow-xl ">
+
+                    <i class="fa-brands fa-js"></i>
+
+                </div>
+
+                <div
+                    class="floating-icon-html absolute bottom-10 left-10 bg-orange-500 text-white w-16 h-16 rounded-2xl flex items-center justify-center text-2xl shadow-xl ">
+
+                    <i class="fa-brands fa-html5"></i>
+
+                </div>
+
+                <div
+                    class="floating-icon-react absolute bottom-0 right-12 bg-sky-500 text-white w-16 h-16 rounded-2xl flex items-center justify-center text-2xl shadow-xl ">
+
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= LAYANAN ================= -->
+
+    <section id="layanan" class="py-20 bg-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-14">
+
+                <h2 class="text-4xl font-bold text-gray-800">
+                    Layanan Kami
+                </h2>
+
+                <p class="text-gray-500 mt-3 max-w-2xl mx-auto">
+                    Solusi digital terbaik untuk membantu bisnis, sekolah,
+                    yayasan, maupun UMKM berkembang dengan website modern
+                    yang cepat, aman, dan profesional.
+                </p>
+
+            </div>
+
+            <!-- Card -->
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-center gap-6">
+                <!-- Card 1 -->
+                <div
+                    class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
+
+                    <div
+                        class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-3xl mx-auto group-hover:bg-blue-600 group-hover:text-white duration-300">
+
+                        <i class="fa-solid fa-building"></i>
+
+                    </div>
+
+                    <h3 class="font-semibold text-xl mt-5 text-center">
+
+                        Company Profile
+
+                    </h3>
+
+                    <p class="text-gray-500 text-sm text-center mt-3 leading-6">
+
+                        Website profesional untuk meningkatkan kredibilitas
+                        perusahaan Anda.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div
+                    class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
+
+                    <div
+                        class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-3xl mx-auto group-hover:bg-blue-600 group-hover:text-white duration-300">
+
+                        <i class="fa-solid fa-window-maximize"></i>
+
+                    </div>
+
+                    <h3 class="font-semibold text-xl mt-5 text-center">
+                        Landing Page
+                    </h3>
+
+                    <p class="text-gray-500 text-sm text-center mt-3 leading-6">
+
+                        Landing page modern dengan konversi tinggi untuk
+                        promosi produk atau jasa.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div
+                    class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
+
+                    <div
+                        class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-3xl mx-auto group-hover:bg-blue-600 group-hover:text-white duration-300">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                    </div>
+
+                    <h3 class="font-semibold text-xl mt-5 text-center">
+                        Toko Online
+                    </h3>
+
+                    <p class="text-gray-500 text-sm text-center mt-3 leading-6">
+
+                        Website e-commerce lengkap dengan katalog produk
+                        dan sistem pemesanan.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 4 -->
+
+                <div
+                    class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
+
+                    <div
+                        class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-3xl mx-auto group-hover:bg-blue-600 group-hover:text-white duration-300">
+
+                        <i class="fa-solid fa-school"></i>
+
+                    </div>
+
+                    <h3 class="font-semibold text-xl mt-5 text-center">
+                        Website Sekolah
+                    </h3>
+
+                    <p class="text-gray-500 text-sm text-center mt-3 leading-6">
+
+                        Website sekolah lengkap dengan informasi,
+                        PPDB, berita, dan galeri.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 5 -->
+
+                <div
+                    class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
+
+                    <div
+                        class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-3xl mx-auto group-hover:bg-blue-600 group-hover:text-white duration-300">
+
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+
+                    </div>
+
+                    <h3 class="font-semibold text-xl mt-5 text-center">
+                        Website Yayasan
+                    </h3>
+
+                    <p class="text-gray-500 text-sm text-center mt-3 leading-6">
+
+                        Website yayasan untuk profil, program,
+                        donasi, dan publikasi kegiatan.
+
+                    </p>
+
+                </div>
+
+                <!-- Card 6 -->
+
+                <div
+                    class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
+
+                    <div
+                        class="w-16 h-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-3xl mx-auto group-hover:bg-blue-600 group-hover:text-white duration-300">
+
+                        <i class="fa-solid fa-code"></i>
+
+                    </div>
+
+                    <h3 class="font-semibold text-xl mt-5 text-center">
+                        Custom Web App
+                    </h3>
+
+                    <p class="text-gray-500 text-sm text-center mt-3 leading-6">
+
+                        Pengembangan aplikasi web sesuai kebutuhan bisnis
+                        Anda dengan teknologi modern.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= KENAPA MEMILIH KAMI ================= -->
+
+    <section id="keunggulan" class="bg-[#07111f] py-20">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-16">
+
+                <h2 class="text-4xl font-bold text-white">
+                    Kenapa Memilih Kami?
+                </h2>
+
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    Kami memberikan solusi website profesional dengan kualitas terbaik,
+                    performa tinggi, dan dukungan penuh untuk membantu bisnis Anda berkembang.
+                </p>
+
+            </div>
+
+            <!-- Grid -->
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+
+                <!-- Item 1 -->
+
+                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
+
+                        <i class="fa-solid fa-mobile-screen"></i>
+
+                    </div>
+
+                    <h3 class="text-white font-semibold text-lg mt-6">
+                        Responsive Design
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-3 leading-6">
+                        Tampilan website optimal di desktop, tablet, maupun smartphone.
+                    </p>
+
+                </div>
+
+                <!-- Item 2 -->
+
+                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
+
+                        <i class="fa-solid fa-gauge-high"></i>
+
+                    </div>
+
+                    <h3 class="text-white font-semibold text-lg mt-6">
+                        Fast Loading
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-3 leading-6">
+                        Optimasi performa agar website cepat diakses oleh pengunjung.
+                    </p>
+
+                </div>
+
+                <!-- Item 3 -->
+
+                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </div>
+
+                    <h3 class="text-white font-semibold text-lg mt-6">
+                        SEO Friendly
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-3 leading-6">
+                        Struktur website dioptimalkan agar mudah ditemukan di Google.
+                    </p>
+
+                </div>
+
+                <!-- Item 4 -->
+
+                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                    </div>
+
+                    <h3 class="text-white font-semibold text-lg mt-6">
+                        Secure
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-3 leading-6">
+                        Sistem keamanan terbaik untuk melindungi website dan data Anda.
+                    </p>
+
+                </div>
+
+                <!-- Item 5 -->
+
+                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
+
+                        <i class="fa-solid fa-palette"></i>
+
+                    </div>
+
+                    <h3 class="text-white font-semibold text-lg mt-6">
+                        Modern UI/UX
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-3 leading-6">
+                        Desain elegan, profesional, dan memberikan pengalaman terbaik.
+                    </p>
+
+                </div>
+
+                <!-- Item 6 -->
+
+                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
+
+                        <i class="fa-solid fa-headset"></i>
+
+                    </div>
+
+                    <h3 class="text-white font-semibold text-lg mt-6">
+                        Lifetime Consultation
+                    </h3>
+
+                    <p class="text-gray-400 text-sm mt-3 leading-6">
+                        Gratis konsultasi kapan saja setelah website selesai dikerjakan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+
+    <section id="portfolio" class="py-20 bg-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-14">
+
+                <h2 class="text-4xl font-bold text-gray-800">
+                    Portfolio Kami
+                </h2>
+
+                <p class="text-gray-500 mt-3">
+                    Beberapa hasil website yang telah kami kerjakan.
+                </p>
+
+            </div>
+
+            <!-- Portfolio Grid -->
+
+            <div class="grid lg:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+
+                <div class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900"
+                            class="w-full h-64 object-cover group-hover:scale-110 duration-500">
+
+                        <!-- Overlay -->
+
+                        <div
+                            class="absolute inset-0 bg-blue-900/70 opacity-0 group-hover:opacity-100 duration-500 flex items-center justify-center">
+
+                            <button class="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold">
+
+                                Lihat Detail
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3 class="font-bold text-xl">
+
+                            PT. Maju Bersama
+
+                        </h3>
+
+                        <p class="text-gray-500 mt-2">
+
+                            Company Profile
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900"
+                            class="w-full h-64 object-cover group-hover:scale-110 duration-500">
+
+                        <div
+                            class="absolute inset-0 bg-blue-900/70 opacity-0 group-hover:opacity-100 duration-500 flex items-center justify-center">
+
+                            <button class="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold">
+                                Lihat Detail
+                            </button>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl">
+                            Hijrah Store
+                        </h3>
+                        <p class="text-gray-500 mt-2">
+                            Toko Online
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900"
+                            class="w-full h-64 object-cover group-hover:scale-110 duration-500">
+                        <div
+                            class="absolute inset-0 bg-blue-900/70 opacity-0 group-hover:opacity-100 duration-500 flex items-center justify-center">
+                            <button class="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold">
+                                Lihat Detail
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3 class="font-bold text-xl">
+
+                            SMP IT Nurul Ilmi
+
+                        </h3>
+
+                        <p class="text-gray-500 mt-2">
+
+                            Website Sekolah
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Indicator -->
+
+            <!-- <div class="flex justify-center gap-3 mt-10">
+
+            <span class="w-3 h-3 rounded-full bg-blue-600"></span>
+
+            <span class="w-3 h-3 rounded-full bg-gray-300"></span>
+
+            <span class="w-3 h-3 rounded-full bg-gray-300"></span>
+
+        </div> -->
+
+        </div>
+
+    </section>
+
+    <!-- ================= ALUR PENGERJAAN ================= -->
+
+    <section id="proses" class="py-20 bg-[#07111f]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center">
+
+                <h2 class="text-4xl font-bold text-white">
+                    Alur Pengerjaan
+                </h2>
+
+                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+                    Proses pengerjaan website dilakukan secara transparan agar Anda
+                    mengetahui perkembangan project dari awal hingga selesai.
+                </p>
+
+            </div>
+
+            <!-- Timeline -->
+
+            <div class="relative mt-20">
+
+                <!-- Garis -->
+
+                <div class="hidden lg:block absolute top-8 left-0 w-full h-1 bg-blue-900 rounded-full"></div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-10 relative">
+
+                    <!-- STEP 1 -->
+
+                    <div class="text-center">
+
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
+
+                            <i class="fa-solid fa-comments"></i>
+
+                        </div>
+
+                        <h3 class="text-white font-semibold text-xl mt-6">
+                            Konsultasi
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 text-sm leading-6">
+                            Diskusi kebutuhan website, target pengguna, dan fitur
+                            yang diinginkan.
+                        </p>
+
+                    </div>
+
+                    <!-- STEP 2 -->
+
+                    <div class="text-center">
+
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
+
+                            <i class="fa-solid fa-pen-ruler"></i>
+
+                        </div>
+
+                        <h3 class="text-white font-semibold text-xl mt-6">
+                            UI/UX Design
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 text-sm leading-6">
+                            Mendesain tampilan website agar modern,
+                            menarik, dan mudah digunakan.
+                        </p>
+
+                    </div>
+
+                    <!-- STEP 3 -->
+
+                    <div class="text-center">
+
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </div>
+
+                        <h3 class="text-white font-semibold text-xl mt-6">
+                            Development
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 text-sm leading-6">
+                            Proses coding website menggunakan teknologi modern
+                            sesuai kebutuhan project.
+                        </p>
+
+                    </div>
+
+                    <!-- STEP 4 -->
+
+                    <div class="text-center">
+
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
+
+                            <i class="fa-solid fa-vial-circle-check"></i>
+
+                        </div>
+
+                        <h3 class="text-white font-semibold text-xl mt-6">
+                            Testing
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 text-sm leading-6">
+                            Pengujian performa, keamanan, serta kompatibilitas
+                            di berbagai perangkat.
+                        </p>
+
+                    </div>
+
+                    <!-- STEP 5 -->
+
+                    <div class="text-center">
+
+                        <div
+                            class="w-16 h-16 rounded-full bg-green-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
+
+                            <i class="fa-solid fa-rocket"></i>
+
+                        </div>
+
+                        <h3 class="text-white font-semibold text-xl mt-6">
+                            Launching
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 text-sm leading-6">
+                            Website dipublikasikan dan siap digunakan oleh
+                            pelanggan maupun pengunjung.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PAKET HARGA ================= -->
+
+    <section id="pricing" class="py-20 bg-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-16">
+
+                <span class="inline-block px-4 py-2 rounded-full bg-blue-100 text-blue-600 font-semibold text-sm">
+                    PAKET HARGA
+                </span>
+
+                <h2 class="text-4xl font-bold text-gray-800 mt-5">
+                    Pilih Paket Sesuai Kebutuhan
+                </h2>
+
+                <p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+                    Kami menyediakan beberapa pilihan paket website yang dapat
+                    disesuaikan dengan kebutuhan bisnis Anda.
+                </p>
+
+            </div>
+
+            <!-- Pricing Card -->
+
+            <div class="grid lg:grid-cols-3 gap-8">
+
+                <!-- BASIC -->
+
+                <div class="border rounded-3xl p-8 hover:shadow-2xl duration-300">
+
+                    <h3 class="text-2xl font-bold text-gray-800">
+                        Basic
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Cocok untuk UMKM & Personal
+                    </p>
+
+                    <h2 class="text-5xl font-bold mt-8 text-blue-600">
+                        Rp.500K
+                    </h2>
+
+                    <p class="text-gray-500 mt-2">
+                        Sekali Bayar
+                    </p>
+
+                    <hr class="my-8">
+
+                    <ul class="space-y-4">
+
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            5 Halaman Website
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Responsive Design
+                        </li>
+
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            SEO Basic
+                        </li>
+
+
+
+
+
+                    </ul>
+
+                    <button class="w-full mt-10 py-4 rounded-xl bg-blue-600 text-white hover:bg-blue-700 duration-300">
+
+                        Pilih Paket
+
+                    </button>
+
+                </div>
+
+                <!-- BUSINESS -->
+
+                <div class="relative rounded-3xl p-8 bg-blue-600 text-white shadow-2xl scale-105">
+
+                    <!-- Badge -->
+
+                    <span
+                        class="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black px-5 py-2 rounded-full font-semibold text-sm">
+
+                        PALING POPULER
+
+                    </span>
+
+                    <h3 class="text-2xl font-bold">
+                        Business
+                    </h3>
+
+                    <p class="mt-2 text-blue-100">
+                        Untuk perusahaan berkembang
+                    </p>
+
+                    <h2 class="text-5xl font-bold mt-8">
+                        Rp.1JT
+                    </h2>
+
+                    <p class="mt-2 text-blue-100">
+                        Sekali Bayar
+                    </p>
+
+                    <hr class="my-8 border-blue-400">
+
+                    <ul class="space-y-4">
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check"></i>
+                            10 Halaman Website
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check"></i>
+                            Premium Design
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check"></i>
+                            SEO Optimization
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check"></i>
+                            WhatsApp Integration
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check"></i>
+                            Google Maps
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check"></i>
+                            Admin Dashboard
+                        </li>
+                    </ul>
+
+                    <button
+                        class="w-full mt-10 py-4 rounded-xl bg-white text-blue-600 hover:bg-gray-100 duration-300 font-semibold">
+
+                        Pilih Paket
+
+                    </button>
+
+                </div>
+
+                <!-- PREMIUM -->
+
+                <div class="border rounded-3xl p-8 hover:shadow-2xl duration-300">
+
+                    <h3 class="text-2xl font-bold text-gray-800">
+                        Premium
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Solusi Website Lengkap
+                    </p>
+
+                    <h2 class="text-5xl font-bold mt-8 text-blue-600">
+                        Custom
+                    </h2>
+
+                    <p class="text-gray-500 mt-2">
+                        Hubungi Kami
+                    </p>
+
+                    <hr class="my-8">
+
+                    <ul class="space-y-4">
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Unlimited Pages
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Custom System
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Multi User
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Payment Gateway
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            API Integration
+                        </li>
+
+                        <li class="flex gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Lifetime Support
+                        </li>
+
+                    </ul>
+
+                    <button class="w-full mt-10 py-4 rounded-xl bg-blue-600 text-white hover:bg-blue-700 duration-300">
+
+                        Hubungi Kami
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================== pertanyaan ================= -->
+    <section class="py-24 bg-slate-950" id="faq">
+        <div class="max-w-4xl mx-auto px-6">
+
+            <!-- Heading -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white">
+                    Frequently Asked Questions
+                </h2>
+
+                <p class="text-slate-400 mt-4">
+                    Temukan jawaban atas pertanyaan yang paling sering diajukan mengenai
+                    layanan pembuatan website.
+                </p>
+            </div>
+
+            <!-- FAQ Container -->
+            <div class="space-y-5">
+
+                <!-- FAQ 1 -->
+                <div class="faq-item bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+
+                    <button
+                        class="faq-question w-full flex justify-between items-center px-6 py-5 text-white text-lg font-semibold hover:bg-slate-800 duration-300">
+
+                        <span>Apakah harga sudah termasuk domain dan hosting?</span>
+
+                        <span class="icon text-2xl text-cyan-400 duration-300">+</span>
+
+                    </button>
+
+                    <div class="faq-answer max-h-0 overflow-hidden duration-500">
+
+                        <p class="px-6 pb-5 text-slate-400 leading-8">
+                            Belum. Domain dan hosting dibeli terpisah sesuai kebutuhan.
+                            Kami siap membantu proses pembelian dan konfigurasi.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+
+                    <button
+                        class="faq-question w-full flex justify-between items-center px-6 py-5 text-white text-lg font-semibold hover:bg-slate-800 duration-300">
+
+                        <span>Berapa lama proses pengerjaan website?</span>
+
+                        <span class="icon text-2xl text-cyan-400 duration-300">+</span>
+
+                    </button>
+
+                    <div class="faq-answer max-h-0 overflow-hidden duration-500">
+
+                        <p class="px-6 pb-5 text-slate-400 leading-8">
+                            Sekitar 5–14 hari kerja tergantung jumlah halaman dan fitur yang
+                            dibutuhkan.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+
+                    <button
+                        class="faq-question w-full flex justify-between items-center px-6 py-5 text-white text-lg font-semibold hover:bg-slate-800 duration-300">
+
+                        <span>Apakah website sudah responsive?</span>
+
+                        <span class="icon text-2xl text-cyan-400 duration-300">+</span>
+
+                    </button>
+
+                    <div class="faq-answer max-h-0 overflow-hidden duration-500">
+
+                        <p class="px-6 pb-5 text-slate-400 leading-8">
+                            Ya. Website akan tampil optimal di desktop, tablet, maupun
+                            smartphone.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+
+                    <button
+                        class="faq-question w-full flex justify-between items-center px-6 py-5 text-white text-lg font-semibold hover:bg-slate-800 duration-300">
+
+                        <span>Apakah ada garansi setelah website selesai?</span>
+
+                        <span class="icon text-2xl text-cyan-400 duration-300">+</span>
+
+                    </button>
+
+                    <div class="faq-answer max-h-0 overflow-hidden duration-500">
+
+                        <p class="px-6 pb-5 text-slate-400 leading-8">
+                            Ya. Kami memberikan garansi perbaikan bug sesuai dengan paket yang
+                            dipilih.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =============== CTA ===================== -->
+    <section id="kontak" class="py-24 bg-slate-950">
+        <div
+            class="max-w-6xl mx-auto px-6 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-3xl overflow-hidden shadow-2xl">
+
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-10 py-16 px-10">
+
+                <!-- Text -->
+                <div class="max-w-2xl">
+
+                    <h2 class="text-4xl lg:text-5xl font-bold text-white leading-tight">
+                        Siap Mewujudkan
+                        <span class="text-yellow-300">Website Impian</span>
+                        untuk Bisnis Anda?
+                    </h2>
+
+                    <p class="text-blue-100 mt-6 text-lg leading-8">
+                        Tingkatkan kredibilitas bisnis Anda dengan website profesional,
+                        modern, responsif, dan SEO Friendly. Konsultasikan kebutuhan website
+                        Anda sekarang juga tanpa biaya.
+                    </p>
+
+                    <div class="mt-8 flex flex-wrap gap-4">
+
+                        <a href="https://wa.me/6281234567890?text=Halo%20Ilyas%20Project,%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20website."
+                            target="_blank"
+                            class="px-8 py-4 bg-white text-slate-900 rounded-xl font-semibold hover:bg-slate-200 duration-300">
+                            Konsultasi Gratis
+                        </a>
+
+                        <a href="#portfolio"
+                            class="px-8 py-4 border border-white text-white rounded-xl hover:bg-white hover:text-slate-900 duration-300">
+                            Lihat Portofolio
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Card -->
+                <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 w-full max-w-sm">
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Kenapa Memilih Kami?
+                    </h3>
+
+                    <ul class="mt-6 space-y-4">
+
+                        <li class="flex items-center gap-3 text-white">
+                            ✅ Responsive Design
+                        </li>
+
+                        <li class="flex items-center gap-3 text-white">
+                            ✅ SEO Friendly
+                        </li>
+
+                        <li class="flex items-center gap-3 text-white">
+                            ✅ Loading Cepat
+                        </li>
+
+                        <li class="flex items-center gap-3 text-white">
+                            ✅ Gratis Konsultasi
+                        </li>
+
+                        <li class="flex items-center gap-3 text-white">
+                            ✅ Support Setelah Website Selesai
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================== footer ================== -->
+    <footer class="bg-slate-950 border-t border-slate-800">
+
+        <div class="max-w-7xl mx-auto px-6 py-16">
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+                <!-- Brand -->
+                <div>
+
+                    <h2 class="text-3xl font-bold text-white">
+                        Ilyas<span class="text-cyan-400">Project</span>
+                    </h2>
+
+                    <p class="text-slate-400 mt-5 leading-8">
+                        Solusi pembuatan website profesional untuk bisnis,
+                        UMKM, sekolah, yayasan, dan perusahaan dengan desain
+                        modern, responsif, dan SEO Friendly.
+                    </p>
+
+                </div>
+
+                <!-- Layanan -->
+                <div>
+
+                    <h3 class="text-xl font-semibold text-white mb-5">
+                        Layanan
+                    </h3>
+
+                    <ul class="space-y-3">
+
+                        <li>
+                            <a href="#" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Company Profile
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Landing Page
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Website Sekolah
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Website Yayasan
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Navigasi -->
+                <div>
+
+                    <h3 class="text-xl font-semibold text-white mb-5">
+                        Navigasi
+                    </h3>
+
+                    <ul class="space-y-3">
+
+                        <li>
+                            <a href="#home" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Beranda
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Tentang
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#portfolio" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Portofolio
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#pricing" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                Harga
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#faq" class="text-slate-400 hover:text-cyan-400 duration-300">
+                                FAQ
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Kontak -->
+                <div>
+
+                    <h3 class="text-xl font-semibold text-white mb-5">
+                        Hubungi Kami
+                    </h3>
+
+                    <div class="space-y-4">
+
+                        <div class="text-slate-400 flex gap-5 items-center">
+                            <i class="fa-solid fa-location-dot"></i> Indonesia
+                        </div>
+
+                        <div class="text-slate-400 flex gap-5 items-center">
+                            <i class="fa-solid fa-envelope"></i> ilyassyamsudin388@email.com
+                        </div>
+
+                        <div class="text-slate-400 flex gap-5 items-center">
+                            <i class="fa-brands fa-whatsapp"></i> +62 821-2954-6021
+                        </div>
+
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="flex gap-4 mt-8">
+
+                        <a href="#"
+                            class="w-11 h-11 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-cyan-500 duration-300">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#"
+                            class="w-11 h-11 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-cyan-500 duration-300">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#"
+                            class="w-11 h-11 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-cyan-500 duration-300">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                            class="w-11 h-11 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-cyan-500 duration-300">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+
+        <div class="border-t border-slate-800">
+
+            <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+
+                <p class="text-slate-500 text-sm">
+                    © 2026 Ilyas Project. All Rights Reserved.
+                </p>
+
+                <div class="flex gap-6 text-sm">
+
+                    <a href="#" class="text-slate-500 hover:text-cyan-400 duration-300">
+                        Privacy Policy
+                    </a>
+
+                    <a href="#" class="text-slate-500 hover:text-cyan-400 duration-300">
+                        Terms of Service
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src='script.js'>
+    </script>
+
+</body>
+
+</html>
