@@ -24,18 +24,129 @@
    }
 
 
-   .floating-icon-js {
-       animation: bounce 4.5s infinite;
-   }
 
-   .floating-icon-css {
-       animation: bounce 4s infinite;
-   }
+   /* ============== hero section ===================== */
 
-   .floating-icon-html {
-       animation: bounce 3s infinite;
-   }
+/* Grid Pattern */
+.bg-grid{
+    background-image:
+        linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+    background-size:40px 40px;
+}
 
-   .floating-icon-react {
-       animation: bounce 2s infinite;
-   }
+/* Glass Effect */
+.glass{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.browser-card{
+    width:100%;
+    max-width:620px;
+    background:#111f34;
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(20px);
+    box-shadow:0 30px 70px rgba(0,0,0,.45);
+}
+
+/* Floating */
+@keyframes floating{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
+
+.floating{
+
+    animation:floating 4s ease-in-out infinite;
+
+}
+
+.floating-delay{
+
+    animation-delay:1.5s;
+
+}
+
+/* Tech Icon */
+
+.tech{
+
+    width:65px;
+    height:65px;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#13233a;
+    border:1px solid rgba(255,255,255,.08);
+    font-size:30px;
+    animation:floating 5s ease-in-out infinite;
+    box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+}
+
+.tech1{
+
+    top:15%;
+    left:5%;
+    color:#ff6b35;
+
+}
+
+.tech2{
+
+    top:10%;
+    right:5%;
+    color:#38bdf8;
+
+}
+
+.tech3{
+
+    bottom:18%;
+    right:0;
+    color:#facc15;
+
+}
+
+.tech4{
+
+    bottom:5%;
+    left:10%;
+    color:#61dafb;
+
+}
+
+/* Responsive */
+
+@media(max-width:1024px){
+
+    .floating{
+
+        position:relative;
+        inset:auto;
+        margin-top:20px;
+        width:100%;
+
+    }
+
+    .browser-card{
+
+        margin-top:30px;
+
+    }
+
+}
