@@ -1420,188 +1420,247 @@
         <div class="grid lg:grid-cols-2 gap-16 items-center">
 
             <!-- ================= LEFT ================= -->
-            <div class="relative flex justify-center">
+           <!-- ================= LEFT ================= -->
+<div class="relative flex justify-center items-center py-8">
 
-                <!-- Decorative Circle -->
-                <div class="absolute -top-10 -left-6 w-24 h-24 border border-blue-500/20 rounded-full"></div>
-                <div class="absolute bottom-8 -right-8 w-36 h-36 border border-cyan-400/20 rounded-full"></div>
+    <!-- Background Glow -->
+    <div class="absolute w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full bg-blue-500/20 blur-3xl"></div>
 
-                <!-- Dots -->
-                <div class="absolute top-8 right-0 grid grid-cols-5 gap-2 opacity-20">
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+    <!-- Decorative Circle -->
+    <div class="hidden md:block absolute -top-8 -left-6 w-24 h-24 border border-blue-500/20 rounded-full"></div>
 
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+    <div class="hidden lg:block absolute bottom-8 -right-8 w-36 h-36 border border-cyan-400/20 rounded-full"></div>
 
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                </div>
+    <!-- Dots -->
+    <div class="hidden lg:grid absolute top-6 right-2 grid-cols-5 gap-2 opacity-20">
 
-                <!-- Glow -->
-                <div class="absolute w-72 h-72 rounded-full bg-blue-500/20 blur-3xl"></div>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
 
-                <!-- Frame -->
-                <div class="relative rounded-[32px] bg-gradient-to-br from-blue-500 to-cyan-400 p-[2px]">
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
 
-                    <div class="rounded-[30px] bg-[#0B1728] p-3">
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
 
-                        <img
-                            src="Assets/ilyas.png"
-                            alt="Ilyas"
-                            class="w-[360px] rounded-[24px] object-cover">
+    </div>
 
-                    </div>
+    <!-- Image Frame -->
+    <div
+        data-aos="fade-right"
+        class="relative rounded-[28px] bg-gradient-to-br from-blue-500 to-cyan-400 p-[2px]">
 
-                </div>
+        <div class="rounded-[26px] bg-[#0B1728] p-3">
 
-                <!-- Floating Badge -->
-                <div data-aos="zoom-in" data-aos-delay="300"
-                    class="absolute bottom-8 md:bottom-auto md:top-8 -right-2 bg-[#0F1B2E]/90 backdrop-blur border border-blue-500/20 rounded-xl px-4 py-3 shadow-xl">
+            <img
+                src="Assets/ilyas.png"
+                alt="Ilyas"
+                class="w-[250px] sm:w-[300px] md:w-[340px] lg:w-[380px] rounded-[20px] object-cover">
 
-                    <div class="flex items-center gap-3">
+        </div>
 
-                        <div
-                            class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400">
+    </div>
 
-                            <i class="fa-solid fa-code"></i>
+    <!-- Floating Badge -->
+    <div
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        class="absolute top-2 right-0 sm:top-6 sm:right-2 md:top-10 md:-right-4 scale-90 sm:scale-100 bg-[#0F1B2E]/90 backdrop-blur border border-blue-500/20 rounded-xl px-3 py-2 md:px-4 md:py-3 shadow-xl">
 
-                        </div>
+        <div class="flex items-center gap-3">
 
-                        <div>
+            <div
+                class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400">
 
-                            <p class="text-white text-sm font-semibold">
-                                Front-End Developer
-                            </p>
-
-                            <p class="text-xs text-gray-400">
-                                Landing Page Specialist
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Floating Card -->
-                <div data-aos="zoom-in" data-aos-delay="400"
-                    class="absolute -bottom-4 -left-2 bg-[#0F1B2E]/90 backdrop-blur border border-blue-500/20 rounded-xl px-5 py-4 shadow-xl">
-
-                    <div class="flex items-center gap-3">
-
-                        <div
-                            class="w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center text-green-400">
-
-                            <i class="fa-solid fa-bolt"></i>
-
-                        </div>
-
-                        <div>
-
-                            <h4 class="text-white font-semibold text-sm">
-                                Fast & Responsive
-                            </h4>
-
-                            <p class="text-xs text-gray-400">
-                                Modern Landing Page
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
+                <i class="fa-solid fa-code"></i>
 
             </div>
-
-            <!-- ================= RIGHT ================= -->
 
             <div>
 
-                <span data-aos="fade-right"
-                    class="inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
-
-                    <i class="fa-solid fa-user"></i>
-                    Tentang Saya
-
-                </span>
-
-                <h2 data-aos="fade-right" data-aos-delay="300" class="mt-6 text-4xl lg:text-5xl font-bold leading-tight text-white">
-
-                    Halo, Saya
-                    <span class=" block text-sky-500">
-                        Ilyas Samsudin
-                    </span>
-
-                </h2>
-
-                <p data-aos="fade-right" data-aos-delay="500" class="mt-6 text-gray-400 leading-8">
-
-                    Saya adalah seorang Front-End Web Developer yang berfokus pada
-                    pembuatan landing page modern, responsif, dan memiliki performa
-                    tinggi. Saya membantu UMKM, bisnis, sekolah, dan personal brand
-                    membangun website yang profesional untuk meningkatkan kepercayaan
-                    serta menghasilkan lebih banyak calon pelanggan.
-
+                <p class="text-white text-xs md:text-sm font-semibold">
+                    Front-End Developer
                 </p>
 
-                <!-- Highlight -->
-                <div data-aos="fade-up" data-aos-delay="700" class="grid sm:grid-cols-2 gap-4 mt-8">
-
-                    <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-blue-500"></i>
-                        <span class="text-gray-300">Modern UI Design</span>
-                    </div>
-
-                    <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-blue-500"></i>
-                        <span class="text-gray-300">Responsive Design</span>
-                    </div>
-
-                    <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-blue-500"></i>
-                        <span class="text-gray-300">Fast Loading</span>
-                    </div>
-
-                    <div class="flex items-center gap-3">
-                        <i class="fa-solid fa-circle-check text-blue-500"></i>
-                        <span class="text-gray-300">SEO Friendly</span>
-                    </div>
-
-                </div>
-
-                <!-- Button -->
-                <div data-aos="fade-up" data-aos-delay="900" class="mt-10 flex flex-wrap gap-4">
-
-                    <a href="#portfolio"
-                        class="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-4 font-semibold text-white transition hover:bg-blue-700">
-
-                        <i class="fa-solid fa-folder-open"></i>
-                        Lihat Portfolio
-
-                    </a>
-
-                    <a href="#contact"
-                        class="inline-flex items-center gap-2 rounded-xl border border-blue-500/30 px-6 py-4 font-semibold text-white transition hover:bg-blue-500/10">
-
-                        <i class="fa-brands fa-whatsapp"></i>
-                        Hubungi Saya
-
-                    </a>
-
-                </div>
+                <p class="text-[11px] md:text-xs text-gray-400">
+                    Landing Page Specialist
+                </p>
 
             </div>
+
+        </div>
+
+    </div>
+
+    <!-- Floating Card -->
+    <div
+        data-aos="zoom-in"
+        data-aos-delay="500"
+        class="absolute bottom-2 left-0 sm:bottom-4 sm:left-2 md:-bottom-5 md:-left-4 scale-90 sm:scale-100 bg-[#0F1B2E]/90 backdrop-blur border border-blue-500/20 rounded-xl px-3 py-2 md:px-5 md:py-4 shadow-xl">
+
+        <div class="flex items-center gap-3">
+
+            <div
+                class="w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center text-green-400">
+
+                <i class="fa-solid fa-bolt"></i>
+
+            </div>
+
+            <div>
+
+                <h4 class="text-white text-xs md:text-sm font-semibold">
+                    Fast & Responsive
+                </h4>
+
+                <p class="text-[11px] md:text-xs text-gray-400">
+                    Modern Landing Page
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+            <!-- ================= RIGHT ================= -->
+
+          <!-- ================= RIGHT ================= -->
+<div
+    class="text-center lg:text-left"
+    data-aos="fade-left">
+
+    <!-- Badge -->
+    <span
+        data-aos="fade-up"
+        class="inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-400">
+
+        <i class="fa-solid fa-user"></i>
+        Tentang Saya
+
+    </span>
+
+    <!-- Heading -->
+    <h2
+        data-aos="fade-up"
+        data-aos-delay="150"
+        class="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight text-white">
+
+        Halo, Saya
+
+        <span
+            class="mt-2 block bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+
+            Ilyas Samsudin
+
+        </span>
+
+    </h2>
+
+    <!-- Description -->
+    <p
+        data-aos="fade-up"
+        data-aos-delay="300"
+        class="mx-auto lg:mx-0 mt-6 max-w-xl text-base leading-8 text-gray-400">
+
+        Saya adalah seorang Front-End Web Developer yang berfokus pada
+        pembuatan landing page modern, responsif, dan memiliki performa
+        tinggi. Saya membantu UMKM, bisnis, sekolah, dan personal brand
+        membangun website profesional yang mampu meningkatkan
+        kepercayaan pelanggan dan memperluas jangkauan bisnis.
+
+    </p>
+
+    <!-- Highlight -->
+    <div
+        data-aos="fade-up"
+        data-aos-delay="450"
+        class="mt-10 grid gap-5 sm:grid-cols-2">
+
+        <div
+            class="flex items-center gap-3 rounded-xl border border-white/5 bg-white/5 p-4">
+
+            <i class="fa-solid fa-circle-check text-blue-500 text-lg"></i>
+
+            <span class="text-gray-300 font-medium">
+                Modern UI Design
+            </span>
+
+        </div>
+
+        <div
+            class="flex items-center gap-3 rounded-xl border border-white/5 bg-white/5 p-4">
+
+            <i class="fa-solid fa-circle-check text-blue-500 text-lg"></i>
+
+            <span class="text-gray-300 font-medium">
+                Responsive Design
+            </span>
+
+        </div>
+
+        <div
+            class="flex items-center gap-3 rounded-xl border border-white/5 bg-white/5 p-4">
+
+            <i class="fa-solid fa-circle-check text-blue-500 text-lg"></i>
+
+            <span class="text-gray-300 font-medium">
+                Fast Loading
+            </span>
+
+        </div>
+
+        <div
+            class="flex items-center gap-3 rounded-xl border border-white/5 bg-white/5 p-4">
+
+            <i class="fa-solid fa-circle-check text-blue-500 text-lg"></i>
+
+            <span class="text-gray-300 font-medium">
+                SEO Friendly
+            </span>
+
+        </div>
+
+    </div>
+
+    <!-- Button -->
+    <div
+        data-aos="fade-up"
+        data-aos-delay="600"
+        class="mt-10 flex flex-col sm:flex-row gap-4">
+
+        <a
+            href="#portfolio"
+            class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl bg-blue-600 px-7 py-4 font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700">
+
+            <i class="fa-solid fa-folder-open"></i>
+            Lihat Portfolio
+
+        </a>
+
+        <a
+            href="#contact"
+            class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl border border-blue-500/30 px-7 py-4 font-semibold text-white transition-all duration-300 hover:border-blue-500 hover:bg-blue-500/10">
+
+            <i class="fa-brands fa-whatsapp"></i>
+            Hubungi Saya
+
+        </a>
+
+    </div>
+
+</div>
 
         </div>
 
