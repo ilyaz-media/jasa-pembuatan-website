@@ -12,6 +12,13 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+        <!-- AOS CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    >
+
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,7 +82,7 @@
                     </li>
 
                     <li>
-                        <a href="#keunggulan" class="hover:text-blue-500 duration-300">
+                        <a href="#tentang" class="hover:text-blue-500 duration-300">
                             Tentang
                         </a>
                     </li>
@@ -156,9 +163,9 @@
 
             <!-- LEFT -->
 
-            <div>
+            <div >
 
-                <span
+                <span data-aos="fade-righ"
                     class="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-full px-5 py-2 text-blue-300">
 
                     <i class="fa-solid fa-code"></i>
@@ -167,7 +174,7 @@
 
                 </span>
 
-                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-black text-white mt-8 leading-tight">
+                <h1 data-aos="fade-right" data-aos-delay="300" class="text-4xl sm:text-5xl lg:text-7xl font-black text-white mt-8 leading-tight">
 
                     Website Modern Untuk
 
@@ -181,7 +188,7 @@
 
                 </h1>
 
-                <p class="text-gray-400 text-lg mt-8 leading-8 max-w-xl">
+                <p data-aos="fade-right" data-aos-delay="500" class="text-gray-400 text-lg mt-8 leading-8 max-w-xl">
 
                     Website cepat, responsive, SEO Friendly,
                     dan dirancang untuk meningkatkan
@@ -189,7 +196,7 @@
 
                 </p>
 
-                <div class="flex flex-col sm:flex-row gap-4 mt-10">
+                <div  class="flex flex-col sm:flex-row gap-4 mt-10">
 
                     <a href="#"
                         class="bg-blue-600 hover:bg-blue-700 text-center rounded-xl px-8 py-4 font-semibold text-white">
@@ -209,28 +216,28 @@
 
                 <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mt-14">
 
-                    <div class="glass p-5 rounded-2xl text-center">
+                    <div data-aos="fade-up" data-aos-delay="300" class="glass p-5 rounded-2xl text-center">
 
                         <h2 class="text-3xl font-bold text-white">50+</h2>
                         <p class="text-gray-400">Project</p>
 
                     </div>
 
-                    <div class="glass p-5 rounded-2xl text-center">
+                    <div data-aos="fade-up" data-aos-delay="500" class="glass p-5 rounded-2xl text-center">
 
                         <h2 class="text-3xl font-bold text-white">100%</h2>
                         <p class="text-gray-400">Responsive</p>
 
                     </div>
 
-                    <div class="glass p-5 rounded-2xl text-center">
+                    <div data-aos="fade-up" data-aos-delay="700" class="glass p-5 rounded-2xl text-center">
 
                         <h2 class="text-3xl font-bold text-white">SEO</h2>
                         <p class="text-gray-400">Ready</p>
 
                     </div>
 
-                    <div class="glass p-5 rounded-2xl text-center">
+                    <div data-aos="fade-up" data-aos-delay="900" class="glass p-5 rounded-2xl text-center">
 
                         <h2 class="text-3xl font-bold text-white">24/7</h2>
                         <p class="text-gray-400">Support</p>
@@ -243,7 +250,7 @@
 
             <!-- RIGHT -->
 
-            <div class="relative flex justify-center">
+            <div data-aos="fade-left"  class="relative flex justify-center">
 
                 <!-- Desktop -->
 
@@ -355,12 +362,11 @@
 
 </section>
     <!-- ================= LAYANAN ================= -->
-
-    <section id="layanan" class="py-20 bg-white">
+    <!-- <section id="layanan" class="py-20 bg-white">
 
         <div class="max-w-7xl mx-auto px-6">
 
-            <!-- Heading -->
+            Heading
 
             <div class="text-center mb-14">
 
@@ -376,10 +382,10 @@
 
             </div>
 
-            <!-- Card -->
+            Card
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-center gap-6">
-                <!-- Card 1 -->
+                Card 1
                 <div
                     class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
 
@@ -405,7 +411,7 @@
 
                 </div>
 
-                <!-- Card 2 -->
+                Card 2
 
                 <div
                     class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
@@ -430,7 +436,7 @@
 
                 </div>
 
-                <!-- Card 3 -->
+                Card 3
 
                 <div
                     class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
@@ -455,7 +461,7 @@
 
                 </div>
 
-                <!-- Card 4 -->
+                Card 4
 
                 <div
                     class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
@@ -480,7 +486,7 @@
 
                 </div>
 
-                <!-- Card 5 -->
+                Card 5
 
                 <div
                     class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
@@ -505,7 +511,7 @@
 
                 </div>
 
-                <!-- Card 6 -->
+                Card 6
 
                 <div
                     class="group bg-white border rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-2 duration-300">
@@ -534,17 +540,19 @@
 
         </div>
 
-    </section>
+    </section> -->
 
+
+        
     <!-- ================= KENAPA MEMILIH KAMI ================= -->
 
-    <section id="keunggulan" class="bg-[#07111f] py-20">
+    <section id="layanan" class="bg-[#07111f] py-20">
 
         <div class="max-w-7xl mx-auto px-6">
 
             <!-- Heading -->
 
-            <div class="text-center mb-16">
+            <div data-aos="fade-up"  class="text-center mb-16">
 
                 <h2 class="text-4xl font-bold text-white">
                     Kenapa Memilih Kami?
@@ -563,7 +571,7 @@
 
                 <!-- Item 1 -->
 
-                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+                <div data-aos="zoom-in" class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
 
                     <div
                         class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
@@ -584,7 +592,7 @@
 
                 <!-- Item 2 -->
 
-                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+                <div data-aos="zoom-in" data-aos-delay="300" class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
 
                     <div
                         class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
@@ -605,7 +613,7 @@
 
                 <!-- Item 3 -->
 
-                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+                <div data-aos="zoom-in" data-aos-delay="600" class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
 
                     <div
                         class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
@@ -626,7 +634,7 @@
 
                 <!-- Item 4 -->
 
-                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+                <div data-aos="zoom-in" data-aos-delay="900" class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
 
                     <div
                         class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
@@ -647,7 +655,7 @@
 
                 <!-- Item 5 -->
 
-                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+                <div data-aos="zoom-in" data-aos-delay="1200"    class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
 
                     <div
                         class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
@@ -668,7 +676,7 @@
 
                 <!-- Item 6 -->
 
-                <div class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
+                <div data-aos="zoom-in" data-aos-delay="1500" class="group rounded-2xl p-6 text-center transition duration-300 hover:-translate-y-2">
 
                     <div
                         class="w-16 h-16 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl text-blue-500 transition duration-300 group-hover:bg-blue-600 group-hover:text-white">
@@ -701,7 +709,7 @@
 
             <!-- Heading -->
 
-            <div class="text-center mb-14">
+            <div data-aos="fade-up" class="text-center mb-14">
 
                 <h2 class="text-4xl font-bold text-gray-800">
                     Portfolio Kami
@@ -719,7 +727,7 @@
 
                 <!-- Card 1 -->
 
-                <div class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
+                <div data-aos="fade-up" data-aos-delay="300" class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
 
                     <div class="relative overflow-hidden">
 
@@ -761,7 +769,7 @@
 
                 <!-- Card 2 -->
 
-                <div class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
+                <div data-aos="fade-up" data-aos-delay="600" class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
 
                     <div class="relative overflow-hidden">
 
@@ -790,7 +798,7 @@
 
                 <!-- Card 3 -->
 
-                <div class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
+                <div data-aos="fade-up" data-aos-delay="900" class="group overflow-hidden rounded-2xl border shadow hover:shadow-2xl duration-500">
                     <div class="relative overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900"
                             class="w-full h-64 object-cover group-hover:scale-110 duration-500">
@@ -846,7 +854,7 @@
 
             <!-- Heading -->
 
-            <div class="text-center">
+            <div data-aos="fade-down" class="text-center">
 
                 <h2 class="text-4xl font-bold text-white">
                     Alur Pengerjaan
@@ -871,7 +879,7 @@
 
                     <!-- STEP 1 -->
 
-                    <div class="text-center">
+                    <div data-aos="fade-right" data-aos-delay="300" class="text-center">
 
                         <div
                             class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
@@ -893,7 +901,7 @@
 
                     <!-- STEP 2 -->
 
-                    <div class="text-center">
+                    <div data-aos="fade-right" data-aos-delay="600" class="text-center">
 
                         <div
                             class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
@@ -915,7 +923,7 @@
 
                     <!-- STEP 3 -->
 
-                    <div class="text-center">
+                    <div data-aos="fade-right" data-aos-delay="900" class="text-center">
 
                         <div
                             class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
@@ -937,7 +945,7 @@
 
                     <!-- STEP 4 -->
 
-                    <div class="text-center">
+                    <div data-aos="fade-right" data-aos-delay="1200" class="text-center">
 
                         <div
                             class="w-16 h-16 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
@@ -959,7 +967,7 @@
 
                     <!-- STEP 5 -->
 
-                    <div class="text-center">
+                    <div data-aos="fade-right" data-aos-delay="1500"  class="text-center">
 
                         <div
                             class="w-16 h-16 rounded-full bg-green-600 text-white flex items-center justify-center text-2xl mx-auto shadow-lg">
@@ -989,11 +997,11 @@
 
     <!-- ================= PAKET HARGA ================= -->
 
-    <section id="pricing" class="py-20 bg-white">
+    <!-- <section id="pricing" class="py-20 bg-white">
 
         <div class="max-w-7xl mx-auto px-6">
 
-            <!-- Heading -->
+            Heading
 
             <div class="text-center mb-16">
 
@@ -1012,11 +1020,11 @@
 
             </div>
 
-            <!-- Pricing Card -->
+            Pricing Card
 
             <div class="grid lg:grid-cols-3 gap-8">
 
-                <!-- BASIC -->
+                BASIC
 
                 <div class="border rounded-3xl p-8 hover:shadow-2xl duration-300">
 
@@ -1069,11 +1077,11 @@
 
                 </div>
 
-                <!-- BUSINESS -->
+                BUSINESS
 
                 <div class="relative rounded-3xl p-8 bg-blue-600 text-white shadow-2xl scale-105">
 
-                    <!-- Badge -->
+                    Badge
 
                     <span
                         class="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black px-5 py-2 rounded-full font-semibold text-sm">
@@ -1142,7 +1150,7 @@
 
                 </div>
 
-                <!-- PREMIUM -->
+                PREMIUM
 
                 <div class="border rounded-3xl p-8 hover:shadow-2xl duration-300">
 
@@ -1210,7 +1218,396 @@
 
         </div>
 
-    </section>
+    </section> -->
+
+ ```html
+<!-- ================= PAKET LANDING PAGE ================= -->
+<section id="pricing" class="relative overflow-hidden bg-white py-24">
+
+    <!-- Background Decoration -->
+    <div class="absolute -top-32 -left-20 h-80 w-80 rounded-full bg-blue-500/10 blur-[120px]"></div>
+    <div class="absolute -bottom-32 -right-20 h-80 w-80 rounded-full bg-cyan-400/10 blur-[120px]"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6">
+
+        <!-- Heading -->
+        <div data-aos="fade-down" class="text-center mb-16">
+
+            <span class="inline-flex items-center gap-2 rounded-full bg-blue-100 px-5 py-2 text-sm font-semibold text-blue-600">
+                <i class="fa-solid fa-tag"></i>
+                PAKET LANDING PAGE
+            </span>
+
+            <h2 class="mt-5 text-4xl font-bold text-gray-900">
+                Satu Paket, Semua Sudah Lengkap
+            </h2>
+
+            <p class="mx-auto mt-4 max-w-2xl text-gray-500">
+                Solusi landing page profesional untuk membantu bisnis Anda tampil
+                lebih terpercaya dan mendapatkan lebih banyak pelanggan.
+            </p>
+
+        </div>
+
+        <!-- Pricing Card -->
+        <div data-aos="fade-up" data-aos-delay="600"
+            class="relative overflow-hidden rounded-[32px] border border-blue-100 bg-white shadow-2xl">
+
+            <!-- Top Gradient -->
+            <div class="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600"></div>
+
+            <div class="grid lg:grid-cols-[1.2fr_1.8fr_1fr]">
+
+                <!-- LEFT -->
+                <div class="p-10 lg:border-r border-gray-100">
+
+                    <span
+                        class="inline-flex rounded-full bg-blue-600 px-4 py-2 text-xs font-semibold text-white">
+
+                        🔥 Paket Terlaris
+
+                    </span>
+
+                    <h3 class="mt-6 text-3xl font-bold text-gray-900">
+                        Landing Page
+                    </h3>
+
+                    <p class="mt-3 text-gray-500 leading-7">
+                        Cocok untuk UMKM, bisnis, sekolah, yayasan,
+                        personal brand, dan berbagai kebutuhan promosi.
+                    </p>
+
+                    <div class="mt-10">
+
+                        <h2 class="text-5xl font-extrabold text-blue-600">
+                            Rp500K
+                        </h2>
+
+                        <p class="mt-2 text-gray-500">
+                            Sekali bayar • Tanpa biaya bulanan
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- CENTER -->
+                <div class="p-10 lg:border-r border-gray-100">
+
+                    <h4 class="font-semibold text-gray-900 mb-6">
+                        Yang Anda Dapatkan
+                    </h4>
+
+                    <div class="grid sm:grid-cols-2 gap-5">
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Responsive Design
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Modern UI Design
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Fast Loading
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            SEO Basic
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            WhatsApp Button
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Contact Form
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Source Code
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            2x Revisi Minor
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Bantuan Deploy
+                        </div>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-check text-green-500"></i>
+                            Free Konsultasi
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT -->
+                <div class="bg-gray-50 p-10 flex flex-col justify-center">
+
+                    <div
+                        class="rounded-2xl bg-blue-50 border border-blue-100 p-5 text-center">
+
+                        <div class="text-blue-600 text-4xl mb-3">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+
+                        <h4 class="font-semibold text-gray-900">
+                            Estimasi Pengerjaan
+                        </h4>
+
+                        <p class="mt-2 text-blue-600 text-2xl font-bold">
+                            1–3 Hari
+                        </p>
+
+                    </div>
+
+                    <a href="#contact"
+                        class="mt-8 flex items-center justify-center gap-2 rounded-xl bg-blue-600 py-4 font-semibold text-white transition hover:bg-blue-700">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Pesan Sekarang
+
+                    </a>
+
+                    <a href="#portfolio"
+                        class="mt-4 flex items-center justify-center gap-2 rounded-xl border border-blue-600 py-4 font-semibold text-blue-600 transition hover:bg-blue-50">
+
+                        <i class="fa-solid fa-folder-open"></i>
+                        Lihat Portfolio
+
+                    </a>
+
+                    <p class="mt-6 text-center text-sm text-gray-500 leading-6">
+                        * Domain & hosting dapat disesuaikan dengan kebutuhan
+                        dan belum termasuk dalam harga paket.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+```
+
+
+
+   <!-- ================= TENTANG SAYA ================= -->
+<section id="tentang" class="relative overflow-hidden bg-[#07111f] py-24">
+
+    <!-- Background Glow -->
+    <div class="absolute -top-40 left-0 h-96 w-96 rounded-full bg-blue-600/10 blur-[140px]"></div>
+    <div class="absolute -bottom-40 right-0 h-96 w-96 rounded-full bg-cyan-400/10 blur-[140px]"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+            <!-- ================= LEFT ================= -->
+            <div class="relative flex justify-center">
+
+                <!-- Decorative Circle -->
+                <div class="absolute -top-10 -left-6 w-24 h-24 border border-blue-500/20 rounded-full"></div>
+                <div class="absolute bottom-8 -right-8 w-36 h-36 border border-cyan-400/20 rounded-full"></div>
+
+                <!-- Dots -->
+                <div class="absolute top-8 right-0 grid grid-cols-5 gap-2 opacity-20">
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                    <span class="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                </div>
+
+                <!-- Glow -->
+                <div class="absolute w-72 h-72 rounded-full bg-blue-500/20 blur-3xl"></div>
+
+                <!-- Frame -->
+                <div class="relative rounded-[32px] bg-gradient-to-br from-blue-500 to-cyan-400 p-[2px]">
+
+                    <div class="rounded-[30px] bg-[#0B1728] p-3">
+
+                        <img
+                            src="Assets/ilyas.png"
+                            alt="Ilyas"
+                            class="w-[360px] rounded-[24px] object-cover">
+
+                    </div>
+
+                </div>
+
+                <!-- Floating Badge -->
+                <div data-aos="zoom-in" data-aos-delay="300"
+                    class="absolute bottom-8 md:bottom-auto md:top-8 -right-2 bg-[#0F1B2E]/90 backdrop-blur border border-blue-500/20 rounded-xl px-4 py-3 shadow-xl">
+
+                    <div class="flex items-center gap-3">
+
+                        <div
+                            class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400">
+
+                            <i class="fa-solid fa-code"></i>
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-white text-sm font-semibold">
+                                Front-End Developer
+                            </p>
+
+                            <p class="text-xs text-gray-400">
+                                Landing Page Specialist
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Floating Card -->
+                <div data-aos="zoom-in" data-aos-delay="400"
+                    class="absolute -bottom-4 -left-2 bg-[#0F1B2E]/90 backdrop-blur border border-blue-500/20 rounded-xl px-5 py-4 shadow-xl">
+
+                    <div class="flex items-center gap-3">
+
+                        <div
+                            class="w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center text-green-400">
+
+                            <i class="fa-solid fa-bolt"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h4 class="text-white font-semibold text-sm">
+                                Fast & Responsive
+                            </h4>
+
+                            <p class="text-xs text-gray-400">
+                                Modern Landing Page
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ================= RIGHT ================= -->
+
+            <div>
+
+                <span data-aos="fade-right"
+                    class="inline-flex items-center gap-2 rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
+
+                    <i class="fa-solid fa-user"></i>
+                    Tentang Saya
+
+                </span>
+
+                <h2 data-aos="fade-right" data-aos-delay="300" class="mt-6 text-4xl lg:text-5xl font-bold leading-tight text-white">
+
+                    Halo, Saya
+                    <span class=" block text-sky-500">
+                        Ilyas Samsudin
+                    </span>
+
+                </h2>
+
+                <p data-aos="fade-right" data-aos-delay="500" class="mt-6 text-gray-400 leading-8">
+
+                    Saya adalah seorang Front-End Web Developer yang berfokus pada
+                    pembuatan landing page modern, responsif, dan memiliki performa
+                    tinggi. Saya membantu UMKM, bisnis, sekolah, dan personal brand
+                    membangun website yang profesional untuk meningkatkan kepercayaan
+                    serta menghasilkan lebih banyak calon pelanggan.
+
+                </p>
+
+                <!-- Highlight -->
+                <div data-aos="fade-up" data-aos-delay="700" class="grid sm:grid-cols-2 gap-4 mt-8">
+
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-blue-500"></i>
+                        <span class="text-gray-300">Modern UI Design</span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-blue-500"></i>
+                        <span class="text-gray-300">Responsive Design</span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-blue-500"></i>
+                        <span class="text-gray-300">Fast Loading</span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-blue-500"></i>
+                        <span class="text-gray-300">SEO Friendly</span>
+                    </div>
+
+                </div>
+
+                <!-- Button -->
+                <div data-aos="fade-up" data-aos-delay="900" class="mt-10 flex flex-wrap gap-4">
+
+                    <a href="#portfolio"
+                        class="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-4 font-semibold text-white transition hover:bg-blue-700">
+
+                        <i class="fa-solid fa-folder-open"></i>
+                        Lihat Portfolio
+
+                    </a>
+
+                    <a href="#contact"
+                        class="inline-flex items-center gap-2 rounded-xl border border-blue-500/30 px-6 py-4 font-semibold text-white transition hover:bg-blue-500/10">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Hubungi Saya
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
     <!-- ================== pertanyaan ================= -->
     <section class="py-24 bg-slate-950" id="faq">
@@ -1591,6 +1988,21 @@
 
     <script src='script.js'>
     </script>
+
+    <!-- aos -->
+     <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration: 700,        // durasi animasi
+    easing: "ease-in-out", // jenis animasi
+    once: false,            // hanya sekali
+    offset: 100,           // mulai animasi saat 100px sebelum terlihat
+});
+</script>
+
+</body>
 
 </body>
 
