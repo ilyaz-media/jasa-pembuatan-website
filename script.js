@@ -59,3 +59,25 @@ faqQuestions.forEach((question) => {
         }
     });
 });
+
+// Theme toggle logic
+const themeToggle = document.getElementById('theme-toggle');
+if (themeToggle) {
+  // Initialize theme based on stored preference or system
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const currentTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+  if (currentTheme === 'dark') {
+    document.documentElement.classList.add('dark-mode');
+    themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+  } else {
+    document.documentElement.classList.remove('dark-mode');
+    themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+  }
+
+  themeToggle.addEventListener('click', () => {
+    const isDark = document.documentElement.classList.toggle('dark-mode');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    themeToggle.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+  });
+}

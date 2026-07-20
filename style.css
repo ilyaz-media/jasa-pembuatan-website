@@ -7,15 +7,32 @@
    }
 
    body {
-       background: #07111f;
-   }
+    background: #07111f;
+}
+
+.dark-mode body {
+    background: #0a0a0a;
+}
 
    .hero-bg {
        background: radial-gradient(circle at top right,
-               rgba(37, 99, 235, .35),
+               hsla(180, 60%, 55%, 0.35),
                transparent 45%),
            linear-gradient(180deg, #07111f, #081528);
    }
+
+:root {
+    --color-primary: hsl(180, 60%, 55%);
+    --color-primary-dark: hsl(180, 30%, 35%);
+    --color-primary-hover: hsl(180, 50%, 45%);
+}
+
+/* Primary background utility */
+.bg-primary { background-color: var(--color-primary) !important; }
+.bg-primary-dark { background-color: var(--color-primary-dark) !important; }
+.hover\:bg-primary-dark:hover { background-color: var(--color-primary-dark) !important; }
+.text-primary { color: var(--color-primary) !important; }
+.hover\:text-primary-dark:hover { color: var(--color-primary-dark) !important; }
 
    .nav-scroll {
        background: rgba(5, 13, 25, .92);
