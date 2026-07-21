@@ -81,3 +81,40 @@ if (themeToggle) {
     themeToggle.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
   });
 }
+
+
+
+
+// ==============================
+// WhatsApp Pricing Button
+// ==============================
+
+const phone = "6281234567890"; // Ganti dengan nomor WhatsApp kamu
+
+const buttons = document.querySelectorAll(".pilih-paket");
+
+buttons.forEach((button) => {
+
+    button.addEventListener("click", () => {
+
+        const paket = button.dataset.package;
+        const harga = button.dataset.price;
+
+        const message = `Halo Ilyas Project 👋
+
+Saya tertarik dengan Paket ${paket}.
+
+Harga : ${harga}
+
+Mohon informasi lebih lanjut mengenai paket ini.
+
+Terima kasih.`;
+
+        const whatsappURL =
+            `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(whatsappURL, "_blank");
+
+    });
+
+});
