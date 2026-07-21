@@ -89,7 +89,7 @@ if (themeToggle) {
 // WhatsApp Pricing Button
 // ==============================
 
-const phone = "6281234567890"; // Ganti dengan nomor WhatsApp kamu
+const phone = "6282129546021"; // Ganti dengan nomor WhatsApp kamu
 
 const buttons = document.querySelectorAll(".pilih-paket");
 
